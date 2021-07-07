@@ -23,20 +23,17 @@ public class MainApp {
 		System.out.println("");
 		// Cambiar valor de las variables
 		B = C;
-		C = A;
-		A = D;
-		D = B;
 		// Muestra el nuevo valor que tomara la variable
 		System.out.println("B Toma el valor de " + C);
+		C = A;
+		// Muestra el nuevo valor que tomara la variable
 		System.out.println("C Toma el valor de " + A);
+		A = D;
+		// Muestra el nuevo valor que tomara la variable
 		System.out.println("A Toma el valor de " + D);
+		D = B;
+		// Muestra el nuevo valor que tomara la variable
 		System.out.println("D Toma el valor de " + B);
-		System.out.println("");
-		// Muestra los valores ya cambiados
-		System.out.println("Valor final de A = " + A);
-		System.out.println("Valor final de B = " + B);
-		System.out.println("Valor final de C = " + C);
-		System.out.println("Valor final de D = " + D);
 	}
 
 }
